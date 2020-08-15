@@ -378,3 +378,4 @@ C:\ME\C#\Projects\BookListMVC\BookListMVC\obj\Debug\netcoreapp3.1\BookListMVC.Vi
 C:\ME\C#\Projects\BookListMVC\BookListMVC\obj\Debug\netcoreapp3.1\BookListMVC.dll
 C:\ME\C#\Projects\BookListMVC\BookListMVC\obj\Debug\netcoreapp3.1\BookListMVC.pdb
 C:\ME\C#\Projects\BookListMVC\BookListMVC\obj\Debug\netcoreapp3.1\BookListMVC.genruntimeconfig.cache
+C:\ME\C#\Projects\BookListMVC\BookListMVC\obj\Debug\netcoreapp3.1\Razor\Views\Books\Index.cshtml.g.cs
