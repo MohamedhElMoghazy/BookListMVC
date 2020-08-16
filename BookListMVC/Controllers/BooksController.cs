@@ -44,6 +44,34 @@ namespace BookListMVC.Controllers
         }
 
 
+        // to do post action
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert()
+        {
+            if (ModelState.IsValid)
+            {
+                if(Book.Id==0)
+                {
+                    // create 
+                    _db.Books.Add(Book);
+
+                }
+                else 
+                {
+                    // update 
+                    _db.Books.Update(Book);
+                       
+                }
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(Book);
+        }
+
+
+
+
         #region API Calls
 
         [HttpGet]
